@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +15,7 @@
     "preview": "vite preview",
     "start": "vite"
   },
+
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.15",
@@ -24,18 +30,17 @@
     "framer-motion": "^12.34.3",
     "jspdf": "^4.2.1",
     "lucide-react": "^0.546.0",
-    "npm": "^11.6.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.13.0",
-    "run": "^1.5.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.14",
     "vaul": "^1.1.2"
   },
+
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.16",
